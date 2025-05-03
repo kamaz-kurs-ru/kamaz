@@ -1,0 +1,60 @@
+@media (max-width: 768px) {
+  /* секция 1 --------------------------------------*/
+  .sec1 {
+    margin: 18px 0;
+  }
+  /* карточки */
+  .cards1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  /* карточка 1 */
+  .card {
+    gap: 10px;
+  }
+  /* цена */
+  .price {
+    font-size: 14px;
+  }
+  /* информация в карте */
+  .info_card {
+    height: max-content;
+    padding: 22px 22px;
+  }
+  /* текст в карте */
+  .info_card p {
+    font-size: 13px;
+  }
+  /* характеристики */
+  .cifri {
+    margin-top: 20px;
+  }
+  /* секция 2------------------------------------------ */
+
+  .sec2 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  .sec2 h2 {
+    margin-top: 10px;
+    margin-right: 40px;
+    border-radius: 10px;
+    width: max-content;
+    height: max-content;
+    padding: 5px 10px;
+    font-size: 20px;
+  }
+  .sec2 p {
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    max-width: 140px;
+    font-size: 16px;
+  }
+}

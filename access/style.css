@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+:root {
+  --primary_dark: #06346d;
+  --primary: #094fa3;
+  --hover_prim: #4a87d1;
+  --light: #fff;
+  --dark: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+body {
+  transition-duration: 0.3s;
+}
+.container {
+  max-width: 1110px;
+  margin: auto;
+  padding: 0 40px;
+}
+
+/* Шапка */
+header{
+  border-bottom: 1px solid var(--primary);
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border-right: 1px solid var(--primary);
+}
+.head ul {
+  display: flex;
+  gap: 30px;
+}
+.icons ul {
+  display: flex;
+  gap: 20px;
+}
+.head li {
+  list-style: none;
+}
+.head a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--primary);
+}
+.head a:hover {
+  font-weight: 800;
+  color: var(--hover_prim);
+}
+#active{
+  font-weight: 900;
+  color: var(--primary_dark);
+}
+
+/* Подвал */
+footer {
+  border-top: 1px solid var(--dark);
+}
+footer p {
+  width: 353px;
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--dark);
+}
+.foot {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}

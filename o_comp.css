@@ -1,0 +1,76 @@
+
+/* секция 1 */
+.sec1 {
+  padding-top: 484px;
+  padding-bottom: 50px;
+  background-image: url(./access/img/bg3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Заголовок в картинке */
+h2 {
+  font-weight: 700;
+  font-size: 35px;
+  color: #fff;
+}
+/* внутреннии отступы секций */
+section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/* секция 2 */
+.sec2 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+.info {
+  padding: 10px 20px;
+  border-radius: 15px;
+  max-width: 628px;
+  background: var(--primary);
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--light);
+}
+.rec {
+  border-radius: 50px;
+  width: 400px;
+  height: 317px;
+  background: var(--light );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* секция 3 */
+.sec3 {
+  background: var(--primary);
+}
+.sec3 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+.white {
+  color: var(--dark);
+  background: var(--light);
+}
+/* секция 4 */
+.sec4 {
+  background: #b51c24;
+}
+.sec4 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+.white {
+  color: var(--dark);
+  background: var(--light);
+}
+

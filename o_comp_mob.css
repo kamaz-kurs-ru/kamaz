@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+  /* секция 1 */
+  .sec1 {
+    padding-top: 200px;
+    padding-bottom: 25px;
+  }
+  /* Заголовок в картинке */
+  h2 {
+    font-size: 20px;
+  }
+  /* внутреннии отступы секций */
+  section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  /* секция 2 */
+  .sec2 .container {
+    gap: 5px;
+  }
+  .info {
+    padding: 5px 10px;
+    border-radius: 7px;
+    max-width: 335px;
+    font-size: 12px;
+  }
+  .rec {
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+  }
+  .rec img {
+    width: 180px;
+  }
+  /* секция 3 */
+  .sec3 .container {
+    gap: 5px;
+  }
+  /* секция 4 */
+  .sec4 .container {
+    gap: 5px;
+  }
+}

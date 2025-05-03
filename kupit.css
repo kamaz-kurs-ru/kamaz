@@ -1,0 +1,113 @@
+
+/* секция 1 --------------------------------------*/
+.sec1 {
+  margin: 36px 0;
+}
+/* карточки */
+.cards1 {
+  display: flex;
+  justify-content: space-between;
+}
+/* карточка 1 */
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+/* свойства картинки в карточке */
+.bg_card {
+  width: 265px;
+  height: 155px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+/* цена */
+.price {
+  padding: 5px 15px;
+  background: var(--primary);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 225%;
+  text-align: right;
+  color: #fff;
+}
+/* картинки в карточках */
+.card1 .bg_card {
+  background-image: url(./access/img/icon_cards1.png);
+}
+.card2 .bg_card {
+  background-image: url(./access/img/icon_cards2.png);
+}
+.card3 .bg_card {
+  background-image: url(./access/img/icon_cards3.png);
+}
+/* информация в карте */
+.info_card {
+  border: 1px solid #ccc;
+  width: 265px;
+  height: 179px;
+  padding: 28px 26px;
+}
+/* текст в карте */
+.info_card p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 120%;
+  color: #232628;
+}
+/* название */
+#name {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 164%;
+  text-transform: uppercase;
+  color: #094fa3;
+}
+/* характеристики */
+.cifri {
+  margin-top: 24px;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+/* одна характеристика */
+.cifri_f {
+  margin-bottom: 15px;
+  width: 102px;
+  display: flex;
+  gap: 10px;
+}
+/* секция 2------------------------------------------ */
+
+.sec2 {
+  background-image: url(./access/img/bg_sec2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 389px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.sec2 h2 {
+  margin-top: 25px;
+  margin-right: 100px;
+  border-radius: 20px;
+  width: 253px;
+  height: 59px;
+  background: var(--light);
+  padding: 9px 20px;
+  font-weight: 400;
+  font-size: 40px;
+  color: var(--primary);
+}
+.sec2 p {
+  margin-top: 25px;
+  max-width: 376px;
+  font-weight: 300;
+  font-size: 40px;
+  color: var(--light);
+}

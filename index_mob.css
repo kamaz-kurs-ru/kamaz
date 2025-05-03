@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+  /* Секция 1 */
+  .section1 {
+    padding-top: 240px;
+    padding-bottom: 25px;
+  }
+  h2 {
+    font-size: 17px;
+  }
+  /* Секция 2 */
+  section {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 12px;
+  }
+/* Секция 3 */
+h3 {
+  font-size: 15px;
+}
+.sec3_gor {
+  flex-direction: column;
+  gap: 20px;
+}
+.sec3_gap img{
+  width: 180px;
+}
+.sec3_gap{
+  gap: 25px;
+}
+.map{
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+}

@@ -1,0 +1,134 @@
+/* Шапка */
+/* букгер меню */
+/* Стили для бургер-меню */
+:root {
+  --primary_dark: #06346d;
+  --primary: #094fa3;
+  --hover_prim: #4a87d1;
+  --light: #fff;
+  --dark: #000;
+}
+
+.burger-menu {
+  display: none;
+  position: relative;
+  z-index: 1000;
+}
+
+.burger-icon {
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+
+}
+
+.burger-icon .span {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: var(--primary);
+  transition: all 0.3s ease;
+  z-index: 10000;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 80%;
+  max-width: 200px;
+  height: 100vh;
+  background-color: grey;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  transition: right 0.3s ease;
+  padding: 60px 20px 20px;
+  overflow-y: auto;
+}
+
+.mobile-menu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+.mobile-menu li {
+  margin-bottom: 15px;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  padding: 8px 0;
+}
+
+.mobile-menu a.active {
+  color: var(--dark); /* Цвет активной ссылки */
+  font-weight: bold;
+}
+
+.mobile-icons {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+
+.mobile-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Анимация бургера */
+.burger-menu.active .burger-icon span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.burger-menu.active .burger-icon span:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-menu.active .burger-icon span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.burger-menu.active .mobile-menu {
+  right: 0;
+}
+
+/* Медиа-запрос для мобильных устройств */
+@media (max-width: 768px) {
+  .burger-menu {
+    display: block;
+  }
+  .nav-menu,
+  .icons {
+    display: none;
+  }
+  .logo_top img {
+    width: 100px;
+    margin-right: 20px;
+  }
+  /* Контеинер */
+  .container {
+    padding: 0 20px;
+  }
+
+  footer p {
+    width: 353px;
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--dark);
+  }
+  .foot {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+}

@@ -1,0 +1,36 @@
+
+/* секция 1 */
+.sec1 {
+  padding-top: 484px;
+  padding-bottom: 50px;
+  background-image: url(./access/img/bg4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2 {
+  font-weight: 700;
+  font-size: 35px;
+  color: #fff;
+}
+section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/* Секция 2 */
+.news{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.new{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+.scel{
+  display: flex;
+  gap: 15px;
+}

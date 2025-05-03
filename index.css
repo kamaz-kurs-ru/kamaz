@@ -1,0 +1,55 @@
+/* Секция 1 */
+.section1 {
+  padding-top: 484px;
+  padding-bottom: 50px;
+  background-image: url(./access/img/bg1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2 {
+  font-weight: 700;
+  font-size: 35px;
+  color: #fff;
+}
+/* Секция 2 */
+section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--primary);
+  margin-bottom: 20px;
+  text-align: center;
+}
+p {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--dark);
+}
+/* Секция 3 */
+.section3 {
+  background: #f6f6f6;
+}
+h3 {
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--dark);
+  text-align: center;
+}
+.sec3_gor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec3_gap{
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.map{
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
