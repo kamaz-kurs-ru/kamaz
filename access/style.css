@@ -39,6 +39,7 @@ header{
   align-items: center;
   gap: 30px;
   border-right: 1px solid var(--primary);
+  padding-right: 20px;
 }
 .head ul {
   display: flex;
